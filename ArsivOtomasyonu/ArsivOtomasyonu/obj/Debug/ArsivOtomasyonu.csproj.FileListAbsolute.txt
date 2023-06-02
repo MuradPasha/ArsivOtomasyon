@@ -101,7 +101,8 @@ C:\Users\Mensi\source\repos\ArsivOtomasyonu\ArsivOtomasyonu\bin\Debug\es\DevExpr
 C:\Users\Mensi\source\repos\ArsivOtomasyonu\ArsivOtomasyonu\bin\Debug\ja\DevExpress.Office.v17.2.Core.resources.dll
 C:\Users\Mensi\source\repos\ArsivOtomasyonu\ArsivOtomasyonu\bin\Debug\ru\DevExpress.Office.v17.2.Core.resources.dll
 C:\Users\Mensi\source\repos\ArsivOtomasyonu\ArsivOtomasyonu\obj\Debug\ArsivOtomasyonu.Onizleme.resources
-C:\Users\Bilge Kağan Beyoğlu\Desktop\ArsivOtomasyonu\ArsivOtomasyonu\bin\Debug\ArsivOtomasyonu.exe.config
+C:\Users\Mensi\source\repos\ArsivOtomasyonu\ArsivOtomasyonu\bin\Debug\MySql.Data.dll
+C:\Users\Mensi\source\repos\ArsivOtomasyonu\ArsivOtomasyonu\obj\Debug\ArsivOtomasyonu.Login.resources
 C:\Users\Bilge Kağan Beyoğlu\Desktop\ArsivOtomasyonu\ArsivOtomasyonu\bin\Debug\ArsivOtomasyonu.exe
 C:\Users\Bilge Kağan Beyoğlu\Desktop\ArsivOtomasyonu\ArsivOtomasyonu\bin\Debug\ArsivOtomasyonu.pdb
 C:\Users\Bilge Kağan Beyoğlu\Desktop\ArsivOtomasyonu\ArsivOtomasyonu\bin\Debug\DevExpress.RichEdit.v17.2.Core.dll
@@ -179,10 +180,10 @@ C:\Users\Bilge Kağan Beyoğlu\Desktop\ArsivOtomasyonu\ArsivOtomasyonu\bin\Debug
 C:\Users\Bilge Kağan Beyoğlu\Desktop\ArsivOtomasyonu\ArsivOtomasyonu\bin\Debug\ja\DevExpress.Office.v17.2.Core.resources.dll
 C:\Users\Bilge Kağan Beyoğlu\Desktop\ArsivOtomasyonu\ArsivOtomasyonu\bin\Debug\ru\DevExpress.Office.v17.2.Core.resources.dll
 C:\Users\Bilge Kağan Beyoğlu\Desktop\ArsivOtomasyonu\ArsivOtomasyonu\obj\Debug\ArsivOtomasyonu.csproj.AssemblyReference.cache
-C:\Users\Bilge Kağan Beyoğlu\Desktop\ArsivOtomasyonu\ArsivOtomasyonu\obj\Debug\ArsivOtomasyonu.csproj.SuggestedBindingRedirects.cache
 C:\Users\Bilge Kağan Beyoğlu\Desktop\ArsivOtomasyonu\ArsivOtomasyonu\obj\Debug\ArsivOtomasyonu.Arsiv.resources
 C:\Users\Bilge Kağan Beyoğlu\Desktop\ArsivOtomasyonu\ArsivOtomasyonu\obj\Debug\ArsivOtomasyonu.Ayarlar.resources
 C:\Users\Bilge Kağan Beyoğlu\Desktop\ArsivOtomasyonu\ArsivOtomasyonu\obj\Debug\ArsivOtomasyonu.Form1.resources
+C:\Users\Bilge Kağan Beyoğlu\Desktop\ArsivOtomasyonu\ArsivOtomasyonu\obj\Debug\ArsivOtomasyonu.Login.resources
 C:\Users\Bilge Kağan Beyoğlu\Desktop\ArsivOtomasyonu\ArsivOtomasyonu\obj\Debug\ArsivOtomasyonu.Onizleme.resources
 C:\Users\Bilge Kağan Beyoğlu\Desktop\ArsivOtomasyonu\ArsivOtomasyonu\obj\Debug\ArsivOtomasyonu.Properties.Resources.resources
 C:\Users\Bilge Kağan Beyoğlu\Desktop\ArsivOtomasyonu\ArsivOtomasyonu\obj\Debug\ArsivOtomasyonu.YeniEvrak.resources

@@ -39,7 +39,7 @@
             this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
             this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
+            this.memoExEdit1 = new DevExpress.XtraEditors.MemoEdit();
             this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
@@ -48,7 +48,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memoExEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // dateEdit1
@@ -119,6 +119,12 @@
             this.comboBoxEdit1.Name = "comboBoxEdit1";
             this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit1.Properties.Items.AddRange(new object[] {
+            "Öğrenci sınav kağıtları",
+            "Öğrenci evrakları",
+            "Personel evrakları",
+            "Muhasebe ve Satın alma evrakları",
+            "Bölüm evrakları"});
             this.comboBoxEdit1.Size = new System.Drawing.Size(329, 20);
             this.comboBoxEdit1.TabIndex = 38;
             // 
@@ -130,13 +136,12 @@
             this.labelControl3.TabIndex = 40;
             this.labelControl3.Text = "Açıklama";
             // 
-            // textEdit2
+            // memoExEdit1
             // 
-            this.textEdit2.Location = new System.Drawing.Point(75, 90);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Properties.AutoHeight = false;
-            this.textEdit2.Size = new System.Drawing.Size(329, 209);
-            this.textEdit2.TabIndex = 39;
+            this.memoExEdit1.Location = new System.Drawing.Point(75, 92);
+            this.memoExEdit1.Name = "memoExEdit1";
+            this.memoExEdit1.Size = new System.Drawing.Size(329, 204);
+            this.memoExEdit1.TabIndex = 42;
             // 
             // simpleButton4
             // 
@@ -145,7 +150,7 @@
             this.simpleButton4.Name = "simpleButton4";
             this.simpleButton4.Size = new System.Drawing.Size(153, 27);
             this.simpleButton4.TabIndex = 41;
-            this.simpleButton4.Text = "Tam Ekran Aç";
+            this.simpleButton4.Text = "Önizlemeyi Büyüt";
             this.simpleButton4.Click += new System.EventHandler(this.simpleButton4_Click);
             // 
             // simpleButton3
@@ -166,6 +171,7 @@
             this.simpleButton2.Size = new System.Drawing.Size(94, 27);
             this.simpleButton2.TabIndex = 34;
             this.simpleButton2.Text = "Kaydet";
+            this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // simpleButton1
             // 
@@ -185,7 +191,6 @@
             this.ClientSize = new System.Drawing.Size(803, 452);
             this.Controls.Add(this.simpleButton4);
             this.Controls.Add(this.labelControl3);
-            this.Controls.Add(this.textEdit2);
             this.Controls.Add(this.comboBoxEdit1);
             this.Controls.Add(this.simpleButton3);
             this.Controls.Add(this.labelControl7);
@@ -197,6 +202,7 @@
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.textEdit1);
             this.Controls.Add(this.simpleButton1);
+            this.Controls.Add(this.memoExEdit1);
             this.Name = "YeniEvrak";
             this.Text = "Yeni Evrak";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.YeniEvrak_FormClosed);
@@ -205,7 +211,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memoExEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -225,7 +231,7 @@
         private DevExpress.XtraEditors.SimpleButton simpleButton3;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
         private DevExpress.XtraEditors.LabelControl labelControl3;
-        private DevExpress.XtraEditors.TextEdit textEdit2;
         private DevExpress.XtraEditors.SimpleButton simpleButton4;
+        private DevExpress.XtraEditors.MemoEdit memoExEdit1;
     }
 }

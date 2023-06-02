@@ -26,5 +26,15 @@ namespace ArsivOtomasyonu
             Form1 fr1 = new Form1();
             fr1.Show();
         }
+
+        private void Ayarlar_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Ayarlar_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

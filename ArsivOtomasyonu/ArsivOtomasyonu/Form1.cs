@@ -42,5 +42,10 @@ namespace ArsivOtomasyonu
             Ayarlar ayarlar = new Ayarlar();
             ayarlar.Show();
         }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

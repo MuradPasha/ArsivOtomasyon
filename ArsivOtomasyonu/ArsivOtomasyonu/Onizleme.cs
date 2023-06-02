@@ -21,7 +21,8 @@ namespace ArsivOtomasyonu
         
         private void Onizleme_Load(object sender, EventArgs e)
         {
-            pdfViewer1.DocumentFilePath = @"a.pdf";
+            
+            
         }
     }
 }
